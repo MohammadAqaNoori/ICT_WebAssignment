@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Clothier</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="Logo">
+          <h1 class="LogoText">CLOTHIER</h1>
+        </div>
+
+        <div class="PageLinkage">
+          <p class="hometxt"><a href="index.html">Home</a></p>
+          <p class="registertxt"><a href="signup.html">Sign up</a></p>
+          <p class="Abouttxt"><a href="About.html">About us</a></p>
+        </div>
+
+        <div class="icon">
+          <img src="jacket.png" alt="Logo" />
+        </div>
+      </nav>
+    </header>
+
+    <div class="login-container">
+      <div class="login-box">
+        <h1 class="login-heading">Welcome Back</h1>
+        <p class="login-subheading">Please login to your account</p>
+        <form action="login.html" method="post">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Username"
+            class="login-input"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            class="login-input"
+            required
+          />
+          <button type="submit" class="login-button">Login</button>
+          <p class="login-footer">
+            Don't have an account? <a href="signup.html">Sign up</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="footer">
+      <p class="footerText">&copy; 2024 Clothier. All Rights Reserved.</p>
+      <div class="imges">
+        <a href="https://www.instagram.com" target="_blank">
+          <img class="instagram" src="instagram.png" alt="Instagram" />
+        </a>
+
+        <a href="https://www.facebook.com" target="_blank">
+          <img class="facebook" src="facebook.png" alt="Facebook" />
+        </a>
+
+        <a href="https://wa.me" target="_blank">
+          <img class="whatsapp" src="whatsapp.png" alt="WhatsApp" />
+        </a>
+      </div>
+    </div>
+  </footer>
+</html>

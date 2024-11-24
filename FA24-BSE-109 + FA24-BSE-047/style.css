@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: transparent;
+    transition: background 0.3s ease-in-out;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    height: 8vh;
+}
+
+nav.scrolled {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.Logo {
+    color: rgba(255, 255, 255, 0.835);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.icon {
+    margin-right: 3.2%;
+}
+
+.PageLinkage {
+    position: fixed;
+    display: flex;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    font-weight: bold;
+}
+
+.PageLinkage p {
+    font-size: 1.3rem;
+    margin: 10px 20px;
+}
+
+.PageLinkage a {
+    text-decoration: none;
+    color: white;
+}
+
+.PageLinkage a:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+
+.HomeSection {
+    position: relative;
+    width: 100%;
+}
+
+.Homeimg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.HomeText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.WELCOME {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.WELCOME_Desciption {
+    font-size: 1.3rem;
+    margin-bottom: 2%;
+}
+
+
+.MenSection {
+    position: relative;
+    width: 100%;
+}
+
+.Menimg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.MenText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.MenOutfit {
+    font-size: 3.4rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.OutfitDecriotion {
+    font-size: 1.3rem;
+    margin-bottom: 2%;
+}
+
+
+.WomenSection {
+    position: relative;
+    width: 100%;
+}
+
+.Womenimg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.WomenText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.WomenOutfit {
+    font-size: 3.1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.WomenOutfitDescription {
+    font-size: 1.3rem;
+    margin-bottom: 2%;
+}
+
+.logintxt a, .registertxt a, .Abouttxt a {
+    color: white;
+    text-decoration: none;
+}
+
+.logintxt a:hover, .registertxt a:hover, .Abouttxt a:hover {
+    color: lightgray;
+}
+
+
+.footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin-top: -0.5%;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.imges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+.instagram, .facebook, .whatsapp{
+    margin-right: 15px;
+}

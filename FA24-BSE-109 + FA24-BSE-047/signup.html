@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - Clothier</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="Logo">
+          <h1 class="LogoText">CLOTHIER</h1>
+        </div>
+
+        <div class="PageLinkage">
+          <p class="hometxt"><a href="index.html">Home</a></p>
+          <p class="loginText"><a href="login.html">Login</a></p>
+          <p class="Abouttxt"><a href="About.html">About us</a></p>
+        </div>
+
+        <div class="icon">
+          <img src="jacket.png" alt="Logo" />
+        </div>
+      </nav>
+    </header>
+
+    <div class="signup-container">
+      <div class="signup-box">
+        <h1 class="signup-heading">Create Account</h1>
+        <p class="signup-subheading">
+          Please fill in the details to create your account
+        </p>
+        <form action="signup.php" method="post">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full Name"
+            class="signup-input"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            class="signup-input"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            class="signup-input"
+            required
+          />
+          <input
+            type="password"
+            name="confirm_password"
+            id="confirm_password"
+            placeholder="Confirm Password"
+            class="signup-input"
+            required
+          />
+          <button type="subit" class="signup-button">Sign Up</button>
+          <p class="signup-footer">
+            Already have an account? <a href="login.html">Login</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="footer">
+      <p class="footerText">&copy; 2024 Clothier. All Rights Reserved.</p>
+      <div class="imges">
+        <a href="https://www.instagram.com" target="_blank">
+          <img class="instagram" src="instagram.png" alt="Instagram" />
+        </a>
+
+        <a href="https://www.facebook.com" target="_blank">
+          <img class="facebook" src="facebook.png" alt="Facebook" />
+        </a>
+
+        <a href="https://wa.me" target="_blank">
+          <img class="whatsapp" src="whatsapp.png" alt="WhatsApp" />
+        </a>
+      </div>
+    </div>
+  </footer>
+</html>
